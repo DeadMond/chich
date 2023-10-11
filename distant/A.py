@@ -1,4 +1,4 @@
-def evenOdd(number):
+/def evenOdd(number):
 if number % 2 == 0:
 return 'even'
 else:

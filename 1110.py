@@ -1,7 +1,12 @@
 #1
+def rps(p1, p2):
+    rsp = {'rock': 'scissors', 'scissors': 'paper', 'paper': 'rock'}
+    if rsp[p1] == p2:
+        return "Player 1 won!"
+    if rsp[p2] == p1:
+        return "Player 2 won!"
+    return "Draw!"
 
-def square_sum(numbers):
-    return sum(x ** 2 for x in numbers)
 
 #2
 
@@ -12,18 +17,15 @@ repeat_str(3, 'loh')
 
 #3
 
-def grow(arr):
-    if (arr != 0):
-        result = 1
-        for i in arr:
-            result = result * i
-            
-        return result
+
 
 #4
+def area_or_perimeter(l , w):
+    if l == w:
+        return l * w
+    else:
+        return (l * w) * 2
 
-def number_to_string(num):
-   return str(num)
 
 #5
 
@@ -44,13 +46,8 @@ def get_grade(s1, s2, s3):
 
 #6
 
-def rps(p1, p2):
-    rsp = {'rock': 'scissors', 'scissors': 'paper', 'paper': 'rock'}
-    if rsp[p1] == p2:
-        return "Player 1 won!"
-    if rsp[p2] == p1:
-        return "Player 2 won!"
-    return "Draw!"
+def square_sum(numbers):
+    return sum(x ** 2 for x in numbers)
 
 #7
 
@@ -70,11 +67,9 @@ def better_than_average(class_points, your_points):
 
 #9
 
-def area_or_perimeter(l , w):
-    if l == w:
-        return l * w
-    else:
-        return (l * w) * 2
+
+def number_to_string(num):
+   return str(num)
 
 #10
 

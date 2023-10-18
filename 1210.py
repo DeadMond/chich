@@ -5,20 +5,17 @@ def find_average(array):
 
 #2
 
-def bmi(weight, height):
-    bmi = weight / (height ** 2)
-    
-    if bmi <= 18.5 :
-        return "Underweight"
-    elif bmi <= 25.0:
-        return "Normal"
-    elif bmi <= 30.0:
-        return "Overweight"
-    elif bmi > 30:
-        return "Obese"
+def get_age(age):
+    return int(age[0])
+
 
 #3
 
+def make_negative( number ):
+    return -abs(number)
+
+
+#4
 def update_light(current):
     if current == "green":
         return "yellow"
@@ -28,11 +25,6 @@ def update_light(current):
         return "green"
     else:
         return "This is not a traffic light color."
-
-#4
-
-def make_negative( number ):
-    return -abs(number)
 
 #5
 
@@ -49,8 +41,17 @@ def quarter_of(month):
 
 #6
 
-def get_age(age):
-    return int(age[0])
+def bmi(weight, height):
+    bmi = weight / (height ** 2)
+    
+    if bmi <= 18.5 :
+        return "Underweight"
+    elif bmi <= 25.0:
+        return "Normal"
+    elif bmi <= 30.0:
+        return "Overweight"
+    elif bmi > 30:
+        return "Obese"
 
 #7
 

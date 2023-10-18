@@ -1,31 +1,25 @@
 #1
+def double_integer(i):
+    return i * 2
+
+#2
+
+def check(seq, elem):
+    return elem in seq
+
+#3
+
+def string_to_array(s):
+    return s.split(' ')
+
+
+#4
 
 def fake_bin(x):
     if int(x) >= 5:
         return 1
     else:
         return 0
-
-#2
-
-def simple_multiplication(number) :
-    if number % 2 == 0:
-        return number * 8
-    else:
-        return number * 9
-
-#3
-
-def zero_fuel(distance_to_pump, mpg, fuel_left):
-    if distance_to_pump / mpg <= fuel_left:
-        return True 
-    else:
-        return False
-
-#4
-
-def double_integer(i):
-    return i * 2
 
 #5
 
@@ -37,8 +31,11 @@ def paperwork(n, m):
 
 #6
 
-def check(seq, elem):
-    return elem in seq
+def simple_multiplication(number) :
+    if number % 2 == 0:
+        return number * 8
+    else:
+        return number * 9
 
 #7
 
@@ -62,8 +59,12 @@ def find_short(s):
 
 #9
 
-def string_to_array(s):
-    return s.split(' ')
+def zero_fuel(distance_to_pump, mpg, fuel_left):
+    if distance_to_pump / mpg <= fuel_left:
+        return True 
+    else:
+        return False
+
 
 #10
 

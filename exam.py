@@ -17,11 +17,11 @@ if (IsIPv4Address($ip)) {
     Write-Host "$ip is a valid IPv4 address."
 } else {
     Write-Host "$ip is not a valid IPv4 address."
-}
+
 
 
 2#
-
+#!/bin/bash
 
 
 3#

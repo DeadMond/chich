@@ -1,5 +1,5 @@
 1#
-function IsIPv4Address($ip) {
+function IPv4($ip) {
     $octets = $ip -split '.'
     if ($octets.Length -ne 4) {
         return $false
@@ -13,7 +13,7 @@ function IsIPv4Address($ip) {
     return $true
 }
 $ip = "192.168.0.1"
-if (IsIPv4Address($ip)) {
+if (IPv4($ip)) {
     Write-Host "$ip is a valid IPv4 address."
 } else {
     Write-Host "$ip is not a valid IPv4 address."
